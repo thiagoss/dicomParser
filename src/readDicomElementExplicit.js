@@ -40,7 +40,9 @@ var dicomParser = (function (dicomParser)
                            "x20051371",
                            "x20051402",
                            "x2005140e",
-                           "x2005140f"];
+                           "x2005140f",
+                           /* GE private tags */
+                           "x00231080"];
         return privateTags.indexOf(tag) !== -1;
     }
 
